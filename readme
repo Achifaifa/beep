@@ -8,11 +8,10 @@
 
   main.sh		- The actual script 
   readme		- this
-  reference	- Data used for the creation of this thing
+  reference		- Data used for the creation of this thing
 
 >>TO-DO:
 
-  Code the actual keyboard
   Add octaves
   Add pitch control
 
@@ -28,3 +27,9 @@
     -Updated reference and readme files
     -Updated .gitignore file
     -Sort of learned how github works
+    
+  0.1: Almost there
+    -Coded a basic keyboard
+    -Changed the menu code (Selecting options now works by typing the number)
+    -Created alternate script for querty users
+   
