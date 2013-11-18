@@ -6,7 +6,7 @@
 
 >>List of files:
 
-  main.sh		- The actual script 
+  main_*.sh		- The actual script. * indecates keyboard layout
   readme		- this
   reference		- Data used for the creation of this thing
 
