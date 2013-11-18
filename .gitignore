@@ -1,5 +1,7 @@
 #Obnoxious files in general
 *.~
+*.sh~
+*~
 Thumbs.db
 
 #Backups, packages, etc
