@@ -11,31 +11,32 @@ local yek="$@"
   read -n1 yek
   
   case "$yek" in
-   q) 	beep -f 261.626 ;;
-   a) 	beep -f 277.183 ;;
+   a) 	beep -f 261.626 ;;
+   w) 	beep -f 277.183 ;;
    r) 	beep -f 293.665 ;;
-   s) 	beep -f 311.127 ;;
-   t) 	beep -f 329.628 ;;
-   d) 	beep -f 349.228 ;;
-   h)	beep -f 369.994 ;;
-   n) 	beep -f 391.995 ;;
-   e) 	beep -f 415.305 ;;
-   i)	beep -f 440.000 ;;
-   o)	beep -f 466.164 ;;
-   y)	beep -f 493.883 ;;
+   f) 	beep -f 311.127 ;;
+   s) 	beep -f 329.628 ;;
+   t) 	beep -f 349.228 ;;
+   g)	beep -f 369.994 ;;
+   d) 	beep -f 391.995 ;;
+   j) 	beep -f 415.305 ;;
+   h)	beep -f 440.000 ;;
+   l)	beep -f 466.164 ;;
+   n)	beep -f 493.883 ;;
    0 ) exit 0 
   esac
   clear
-  echo "Teclado inicializado. Pulsa 0 para salir"
+  echo "Press 0 to exit"
   
 done
 }
 
 #Test function
-#Beeps throughout a range of predetermined frequencies
+#Beep beep beepbeep beepbeepbeep beep beep beepbeepbeepbeepbeep beep beep beep bebeep bebeep beep beeep
 function launchtest
 {
-echo -n "Testing"
+clear
+echo "Testing"
 beep -f 659 -l 460 -n -f 784 -l 340 -n -f 659 -l 230 -n -f 659 -l 110 -n -f 880 -l 230 -n -f 659 -l 230 -n -f 587 -l 230 -n -f 659 -l 460 -n -f 988 -l 340 -n -f 659 -l 230 -n -f 659 -l 110 -n -f 1047 -l 230 -n -f 988 -l 230 -n -f 784 -l 230 -n -f 659 -l 230 -n -f 988 -l 230 -n -f 1318 -l 230 -n -f 659 -l 110 -n -f 587 -l 230 -n -f 587 -l 110 -n -f 494 -l 230 -n -f 740 -l 230 -n -f 659 -l 700
 echo "Done, press any key to contine"
 read -n1
@@ -62,7 +63,7 @@ echo "Main Menu"
 echo "1.- Initialize keyboard"
 echo "2.- Test system"
 echo "3.- Install beep"
-echo "4.- Exit"
+echo "4.- Salir"
 read -n1 choice
 case $choice in
   1 ) init ;;

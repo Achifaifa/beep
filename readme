@@ -10,17 +10,18 @@
 
 >>List of files:
 
-  main_*.sh		- The actual script. * indecates keyboard layout
+  main_*.sh		- The actual script. * indicates keyboard layout
   readme		- this
   reference		- Data used for the creation of this thing
 
 >>TO-DO:
 
-  Add octaves
-  Add pitch control
-  Enable exit to menu from keyboard
-  Multiple layout support without using multiple scripts
-  Key logging (Recording pressed notes in a file)
+  1) Add octaves
+  2) Add pitch control
+  3) Enable exit to menu from keyboard
+  4) Multiple layout support without using multiple scripts
+  5) Key logging (Recording pressed notes in a file)
+  6) Detect OS and modify the install script so it works on non-debian distros.
 
 >>Version history:
 
@@ -38,4 +39,10 @@
     -Coded a basic keyboard
     -Changed the menu code (Selecting options now works by typing the number)
     -Created alternate script for querty users
+    -Changed test tune for something more catchy
    
+  0.2: Looking nice
+    -Changed keyboard binding
+    -Changed keyboard binding (Again)
+    -Removed querty script (Will be fixed when to-do 4 is implemented)
+    -Updated script
