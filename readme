@@ -1,8 +1,12 @@
 #BeepBeep v0.0b
 #Console keyboard based on the beep command.
 
-
-
+>>Instructions:
+  -Install 'beep' first (option 3, "Install beep")
+  -Make sure you have a buzzer (You can test your system with option 2, "Test system")
+  -Press 1 ("Initialize keyboard"). You will enter keyboard mode. 
+  -Pressing q-a-(...)-i-o (Colemak) and q-a-(...)-l-; (Querty) will generate notes in the 4th octave
+  -You can exit the script pressing 0 while in keyboard mode
 
 >>List of files:
 
@@ -14,7 +18,9 @@
 
   Add octaves
   Add pitch control
-
+  Enable exit to menu from keyboard
+  Multiple layout support without using multiple scripts
+  Key logging (Recording pressed notes in a file)
 
 >>Version history:
 
