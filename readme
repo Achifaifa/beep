@@ -1,1 +1,30 @@
-Github upload test, beep v0.0
+#BeepBeep v0.0b
+#Console keyboard based on the beep command.
+
+
+
+
+>>List of files:
+
+  main.sh		- The actual script 
+  readme		- this
+  reference	- Data used for the creation of this thing
+
+>>TO-DO:
+
+  Code the actual keyboard
+  Add octaves
+  Add pitch control
+
+
+>>Version history:
+
+  0.0: Nothing to see here yet 
+    -Tested github, created repo
+    -Added empty files
+
+  0.0b: NOTHING WORKS!!
+    -Added basic functions and menu structure
+    -Updated reference and readme files
+    -Updated .gitignore file
+    -Sort of learned how github works
