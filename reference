@@ -1,0 +1,18 @@
+#Reference file for beep developing
+
+A) Note-frequency equivalences:
+
+Note		Oct.	Freq.		wl (m)	note
+
+C 		4 	261.626 	1.301 	Middle C
+C# / Db 	4 	277.183 	1.228 	 
+D 		4 	293.665 	1.159 	 
+D# / Eb 	4 	311.127 	1.094 	 
+E 		4 	329.628 	1.032 	 
+F 		4 	349.228 	0.974 	 
+F# / Gb 	4 	369.994 	0.920 	 
+G 		4 	391.995 	0.868 	 
+G# / Ab 	4 	415.305 	0.819 	 
+A 		4 	440.000 	0.773 	Tuning reference note
+A# / Bb 	4 	466.164 	0.730 	 
+B 		4 	493.883 	0.689 	  

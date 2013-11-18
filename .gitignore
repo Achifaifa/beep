@@ -1,0 +1,15 @@
+#Obnoxious files in general
+*.~
+Thumbs.db
+
+#Backups, packages, etc
+
+*.iso
+*.rar
+*.zip
+
+#logs
+
+*.log
+
+
