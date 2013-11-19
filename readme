@@ -1,16 +1,24 @@
-#BeepBeep v0.2
-#Console keyboard based on the beep command.
+#BeepBeep v0.3
+#Console music keyboard based on the beep command.
 
 >>Instructions:
-  -Install 'beep' first (option 3, "Install beep")
+  -Install 'beep' first (option 3, "Install beep")*
   -Make sure you have a buzzer (You can test your system with option 2, "Test system")
   -Press 1 ("Initialize keyboard"). You will enter keyboard mode. 
-  -Pressing q-a-(...)-i-o (Colemak) and q-a-(...)-l-; (Querty) will generate notes in the 4th octave
-  -You can exit the script pressing 0 while in keyboard mode
+  -Pressing q-u and a-e (Colemak) will generate notes in the 4th octave
+  
+  Recording:
+  -Recording is turned on/off in the menu
+    When recording is on, the script saves the generated notes in a text file in your home dir (~/BeepBeep)
+    The file contains one note per line
+    If a file is already present, a session separator line is inserted before writing any note on it
+    Session separator lines are written even if no keys are pressed in the session
 
+  *The install command uses apt-get. If your distro doesn't use apt-get, install beep manually.
+  
 >>List of files:
 
-  main_*.sh		- The actual script. * indicates keyboard layout
+  main.sh		- The actual script.
   readme		- this
   reference		- Data used for the creation of this thing
 
@@ -18,10 +26,9 @@
 
   1) Add octaves
   2) Add pitch control
-  3) Enable exit to menu from keyboard
-  4) Multiple layout support without using multiple scripts
-  5) Key logging (Recording pressed notes in a file)
-  6) Detect OS and modify the install script so it works on non-debian distros.
+  3) Multiple layout support without using multiple scripts
+  4) Playback of recorded files
+  5) Detect OS and modify the install script so it works on non-debian distros.
 
 >>Version history:
 
@@ -46,3 +53,10 @@
     -Changed keyboard binding (Again)
     -Removed querty script (Will be fixed when to-do 4 is implemented)
     -Updated script
+  
+  0.3: Progress
+    -Fixed bug: exit from script when pressing 0 in keyboard mode
+    -Fixed bug: entering keyboard mode after exiting to menu
+    -Fixed bug: menu displaying several times when pressing a invalid key
+    -Added recording functions
+    -Changed the keyboard code to support recording
